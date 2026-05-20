@@ -1,0 +1,59 @@
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.Education {
+  text-align: left;
+}
+
+.bio_headings {
+  text-align: left;
+}
+
+.box{
+    border: 1px groove goldenrod;
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.contacts_h{
+    text-align: left;
+}
+
+.p2{
+    text-align: left;
+}
+
+.form2{
+    text-align: center;
+}
+
+#pages{
+    background-color: lightgrey;
+}
+
+#owner{
+    color: rgb(32, 112, 112);
+}
+
+input{
+  margin: 5px;
+}
+
+.box2{
+  border: 1px groove black;
+  margin: 5px;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
