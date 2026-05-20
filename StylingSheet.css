@@ -46,7 +46,7 @@ p {
 }
 
 input{
-  margin: 5px;
+  margin: 2px;
 }
 
 .box2{
@@ -57,3 +57,50 @@ input{
   border-radius: 20px;
 }
 
+/* Unvisited link*/
+a:link{
+  color: red;
+}
+
+/* Visited link*/
+a:visited{
+  color: green;
+}
+
+/*mouse over link*/
+a:hover{
+  color: orange;
+}
+
+/*selected link*/
+a:active{
+  color: brown;
+}
+
+.fa-envelope{
+  font-size: 150%;
+}
+
+.fa-facebook{
+  font-size: 150%;
+}
+
+.fa-instagram{
+  font-size: 150%;
+}
+
+.fa-linkedin{
+  font-size: 150%;
+}
+
+.fa-github{
+  font-size: 150%;
+}
+
+.fa-youtube{
+  font-size: 150%;
+}
+
+#h{
+  color: black;
+}
