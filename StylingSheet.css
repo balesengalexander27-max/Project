@@ -1,6 +1,66 @@
-h1 {
-  text-align: center;
+nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
 }
+
+nav ul{
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.icons{
+  align-content: center;
+}
+
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  justify-content: right;
+}
+
+.techstack{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  color: red;
+}
+
+.intro{
+  font-size: 30px;
+}
+
+.fa-html5{
+  font-size: 500%;
+}
+
+.fa-css3{
+ font-size: 500%;
+}
+
+.fa-node-js{
+  font-size: 500%;
+}
+
+.name{
+  color: red;
+}
+
+button{
+  color: white;
+  background-color: rgb(255, 115, 115);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 8%;
+  cursor: pointer;
+}
+
 
 h2 {
   text-align: center;
@@ -19,7 +79,7 @@ p {
 }
 
 .box{
-    border: 1px groove goldenrod;
+    border: 1px groove black;
     margin: 5px;
     padding: 10px;
     background-color: lightgray;
@@ -33,12 +93,10 @@ p {
     text-align: left;
 }
 
-.form2{
-    text-align: center;
-}
+
 
 #pages{
-    background-color: lightgrey;
+    background-color: white;
 }
 
 #owner{
@@ -103,4 +161,20 @@ a:active{
 
 #h{
   color: black;
+}
+
+hr{
+  color: black;
+}
+
+.computers{
+display: flex;
+justify-content: center;
+}
+
+.workstation{
+  background: red;
+  width: 200px;
+  height: 200px;
+  margin: 5px;
 }
