@@ -15,10 +15,13 @@ nav ul{
 }
 
 img{
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
+  border: 10px solid black;
   border-radius: 50%;
-  justify-content: right;
+  text-align: end;
+  margin-left: 10%;
+  
 }
 
 .techstack{
